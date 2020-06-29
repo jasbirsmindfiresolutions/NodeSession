@@ -1,23 +1,6 @@
 var readline = require('readline');
+var items = require('./items.json');
 
-
-const items = [
-	{
-		id: 1,
-		name: 'Soap',
-		price: 10
-	},
-	{
-		id: 2,
-		name: 'Tooth Paste',
-		price: 20
-	},
-	{
-		id: 3,
-		name: 'Ice cream',
-		price: 30
-	},
-];
 
 let order = {
 	item: 0,
